@@ -24,13 +24,10 @@ export default function Home() {
               </div>
             </div>
             <div className="m-10">
-            <a href="#">
-               <FontAwesomeIcon icon={faTwitter} className="px-5"/>
-            </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/company/stroke-of-genius-co/">
                <FontAwesomeIcon icon={faLinkedin} className="px-5"/>
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/strokeofgeniusco/">
                <FontAwesomeIcon icon={faInstagram} className="px-5"/>
             </a>
             </div>

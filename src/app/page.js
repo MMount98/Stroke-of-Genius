@@ -27,7 +27,7 @@ export default function Home() {
             <a href="#">
                <FontAwesomeIcon icon={faTwitter} className="px-5"/>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/company/stroke-of-genius-co/">
                <FontAwesomeIcon icon={faLinkedin} className="px-5"/>
             </a>
             <a href="#">

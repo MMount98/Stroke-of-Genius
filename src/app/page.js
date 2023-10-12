@@ -1,36 +1,55 @@
 import Image from "next/image";
-import "@fortawesome/fontawesome-svg-core/styles.css"; 
-import { config } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
-
-
-config.autoAddCss = false; 
+import Type from "../Images/SOGType.jpeg";
+import Disturb from "../Images/DoDisturb.png";
+import Stories from "../Images/BusyTellingStories.png";
+import Remodel from "../Images/ALittleRemodeling.png";
 
 export default function Home() {
   return (
     <main>
-      <div className="relative h-screen w-full flex items-center justify-center bg-cover bg-center text-center px-5">
-        <div className="z-50 flex flex-col justify-center text-white w-full h-screen">
-          <h1 className="text-5xl">
-            We are <b>Almost</b> there!
+      <div className="flex justify-center">
+        <div className="flex flex-col items-center m-16">
+          <Image src={Type} width={350} height={62} />
+          <h1 className="text-center font-montserrat text-white md:text-2xl">
+            Creative Hospitality Agency
           </h1>
-          <p>Stay tuned for something amazing!</p>
-
-          <div className="mt-10 mb-5">
-            <div className="shadow w-full bg-white mt-2 max-w-2xl mx-auto rounded-full">
-              <div className="rounded-full bg-black text-xs leading-none  text-white py-1 w-3/4 ">
-                75%
-              </div>
-            </div>
-            <div className="m-10">
-            <a href="https://www.linkedin.com/company/stroke-of-genius-co/">
-               <FontAwesomeIcon icon={faLinkedin} className="px-5"/>
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row justify-center items-center text-white">
+        <div className="flex flex-col md:flex-row justify-around w-full md:w-4/5 space-y-8 md:space-y-0">
+          <div className="flex flex-col items-center">
+            <Image
+              src={Stories}
+              alt="Busy Telling Stories"
+              width={198}
+              height={350}
+            />
+            <Image
+              src={Remodel}
+              alt="a little remodeling"
+              width={150}
+              height={300}
+              className="relative left-0 md:left-28 bottom-0 md:bottom-40"
+            />
+          </div>
+          <div className="flex flex-col items-center pt-20">
+            <h2 className="text-3xl font-bebasNeue md:text-5xl text-white font">
+              Coming Soon...
+            </h2>
+            <a
+              href="mailto:admin@strokeofgeniusco.com"
+              className="mt-48 px-6 py-2 border border-white rounded font-bebasNeue text-3xl hover:bg-white hover:text-black transition duration-300"
+            >
+              CONTACT US
             </a>
-            <a href="https://www.instagram.com/strokeofgeniusco/">
-               <FontAwesomeIcon icon={faInstagram} className="px-5"/>
-            </a>
-            </div>
+          </div>
+          <div className="flex flex-col items-center">
+            <Image
+              src={Disturb}
+              alt="Do Not Distrub"
+              width={150}
+              height={300}
+            />
           </div>
         </div>
       </div>

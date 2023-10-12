@@ -38,7 +38,7 @@ export default function Home() {
             </h2>
             <a
               href="mailto:admin@strokeofgeniusco.com"
-              className="mt-4 px-6 py-2 border border-white rounded hover:bg-white hover:text-black transition duration-300"
+              className="mt-48 px-6 py-2 border border-white rounded hover:bg-white hover:text-black transition duration-300"
             >
               CONTACT US
             </a>

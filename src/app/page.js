@@ -9,14 +9,14 @@ export default function Home() {
     <main>
       <div className="flex justify-center">
         <div className="flex flex-col items-center m-16">
-          <Image src={Type} width={250} height={250} />
+          <Image src={Type} width={350} height={62} />
           <h1 className="text-center font-mono text-white md:text-2xl">
             Creative Hospitality Agency
           </h1>
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center text-white">
-        <div className="flex flex-col md:flex-row justify-between w-full md:w-4/5 space-y-8 md:space-y-0">
+        <div className="flex flex-col md:flex-row justify-around w-full md:w-4/5 space-y-8 md:space-y-0">
           <div className="flex flex-col items-center">
             <Image
               src={Stories}
@@ -32,8 +32,16 @@ export default function Home() {
               className="relative left-0 md:left-28 bottom-0 md:bottom-40"
             />
           </div>
-          <div className="flex flex-col items-center justify-center">
-            <h2 className="text-3xl md:text-5xl text-white font">Coming Soon...</h2>
+          <div className="flex flex-col items-center pt-20">
+            <h2 className="text-3xl md:text-5xl text-white font">
+              Coming Soon...
+            </h2>
+            <a
+              href="mailto:admin@strokeofgeniusco.com"
+              className="mt-4 px-6 py-2 border border-white rounded hover:bg-white hover:text-black transition duration-300"
+            >
+              CONTACT US
+            </a>
           </div>
           <div className="flex flex-col items-center">
             <Image

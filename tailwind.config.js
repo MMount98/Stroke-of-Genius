@@ -1,3 +1,5 @@
+const { Bebas_Neue } = require("next/font/google");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -6,9 +8,15 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    extend: {
+      fontFamily: {
+        bebasNeue: ["Bebas Neue", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+      },
+    },
     colors: {
       background: "#1F1F1F",
-      'white': '#ffffff',
+      white: "#ffffff",
     },
   },
   plugins: [],

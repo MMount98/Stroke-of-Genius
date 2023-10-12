@@ -10,7 +10,7 @@ export default function Home() {
       <div className="flex justify-center">
         <div className="flex flex-col items-center m-16">
           <Image src={Type} width={350} height={62} />
-          <h1 className="text-center font-mono text-white md:text-2xl">
+          <h1 className="text-center font-montserrat text-white md:text-2xl">
             Creative Hospitality Agency
           </h1>
         </div>
@@ -33,12 +33,12 @@ export default function Home() {
             />
           </div>
           <div className="flex flex-col items-center pt-20">
-            <h2 className="text-3xl md:text-5xl text-white font">
+            <h2 className="text-3xl font-bebasNeue md:text-5xl text-white font">
               Coming Soon...
             </h2>
             <a
               href="mailto:admin@strokeofgeniusco.com"
-              className="mt-48 px-6 py-2 border border-white rounded hover:bg-white hover:text-black transition duration-300"
+              className="mt-48 px-6 py-2 border border-white rounded font-bebasNeue text-3xl hover:bg-white hover:text-black transition duration-300"
             >
               CONTACT US
             </a>

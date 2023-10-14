@@ -38,12 +38,12 @@ export default function Home() {
             </h2>
             <a
               href="mailto:admin@strokeofgeniusco.com"
-              className="mt-48 px-6 py-2 border border-white rounded font-bebasNeue text-3xl hover:bg-white hover:text-black transition duration-300"
+              className="mt-48 px-6 py-2 border border-white rounded font-bebasNeue text-3xl hover:bg-white hover:text-background transition duration-300"
             >
               CONTACT US
             </a>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="mr-10">
             <Image
               src={Disturb}
               alt="Do Not Distrub"
